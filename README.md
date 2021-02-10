@@ -1,8 +1,9 @@
 # Stagewood - BackEnd
 
 This back-end side of the application have all the logic to process request to the database. It was done using the following technologies: GraphQL, Apollo Server, 
-Prisma, MySQL database, AWS RDS, Heroku. Other technologies used: bcryptjs and jsonwebtoken for validation/verification, concurrently to run both sides (server and client) in developer
-enviroment, and cloudinary to store users' profile pictures.
+Prisma, MySQL database, AWS RDS, Heroku. Other technologies used: bcryptjs and jsonwebtoken for validation/verification, concurrently to run both sides (server and client) in developer environment, and cloudinary to store users' profile pictures.
+
+Link to the client github: https://github.com/hugohp19/stagewood-FronEnd
 
 Mutations:
 login(email, password);
@@ -44,10 +45,10 @@ signup(name, username, email, password, picture)
 [Cloudinary]: https://cloudinary.com/
 
 
-### :memo: Deploying to heroku?
+### :memo: Deploying to Heroku?
 
 1. `heroku create <app_name>`
-2. `git remote -v` -> make sure to have heroku as one of the remotes
+2. `git remote -v` -> make sure to have Heroku as one of the remotes
 3. `git push heroku main`
 
 Other helpfull commands after deployment:
